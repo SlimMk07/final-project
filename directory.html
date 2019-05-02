@@ -14,28 +14,30 @@
   </head>
   <body class="container-fluid">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">   
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="visit">
+                        <a class="navbar-brand" href="#"> <img src="src/find.png" alt="logo" width="40" height="40"><p>Workshop</p> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <button class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </button>
+                            <button class="nav-item">
+                                <a class="nav-link" href="directory.html">Directory</a>
+                            </button>
+                            <button class="nav-item">
+                                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                            </button>     
+                    </div>
+                    <div class="connect">  
+                            <button class="nav-item">
+                                <a id="connect" class="nav-link" href="#">Login / Sign Up</a>
+                            </button> 
+                    </div>
+                </div>
+            </nav>
         <div id="googleMap" style="width:100%;height:400px;"></div>
         
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPHXn5B2BfPeFQYkHhLiGvUhtODKpUrpo&callback=myMap"></script>
@@ -299,7 +301,41 @@
             </ul>
         </div>
     </section>
-
+    <footer>
+        <section class="black">
+            <div class="black1">
+                <img src="src/find.png" width="100"height="100">
+                <div class="lastpara">   
+                    <p class="para1">Workshop creates events<br> for sharing<br> knowledge.</p>
+                    <p class="para2">Follow us: <a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-twitter-square"></i></a></p>
+                </div>  
+            </div>
+            <div id="contact-us" class="black2">
+                <ul>
+                    <li>Contact Us :</li>
+                    <li>Email: <a href="#">Workshop@gmail.com</a></li>
+                    <li>Phone: <a href="#">+216 00 000 000</a></li>
+                </ul>
+                <form action="index.html" method="POST">
+                        <div class="forms">  
+                            <span>Name:</span><br>
+                                <input class="inputs" id='name' type="text" placeholder="Full name"/><br>
+                                <p id='msgname'></p>
+                            <span>E-mail Address:</span><br>
+                                <input class="inputs" id="email" type="email" placeholder="expl@domain.extention"/><br>
+                                <p id="msgmail"></p>
+                            <span>Message:</span><br>  
+                                <textarea class="comment" id="commentaire" name="my-comment"></textarea>
+                                <p id='msgcomm'></p>
+                            <button type="button" class="bots btn btn-outline-light" onclick="validation()">send</button><br>
+                        </div>  
+                </form>   
+            </div><br>
+        </section>
+        <section class="black3">
+                <p>©2001–2019 All rights reserved. <a href="#">Privacy</a> and <a href="#"> Terms</a></p>
+        </section>  
+    </footer>  
     
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

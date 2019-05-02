@@ -331,3 +331,32 @@ a {
 	margin: 15px auto 13px;
 	width: 94px;
 }
+
+
+/*navbar*/
+.collapse{
+    display: flex;
+    justify-content: space-around;
+    font-size: 120%
+}
+.collapse button{
+    background-color: transparent;
+    border-radius: 10%;
+    border: 1px;
+}
+.collapse a{
+    color: white;
+}
+.collapse a:hover{
+    color: #a2c11c;
+}
+.navbar-brand p{
+    font-size: 150%;
+    color:#a2c11c;   
+    font-weight: bold;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center
+
+}
