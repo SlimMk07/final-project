@@ -1,0 +1,333 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    height:200px;
+}
+.selectors{
+    background-color: #E0E0E0;
+}
+.checkbox{
+    display:flex;
+    align-items:baseline;
+    border-bottom: 1px solid #E0E0E0;
+}
+.choice{
+    margin-left:1em;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+/*card*/
+.women-directory .profiles-list .profile {
+    background-color: #fff;
+    border-top: 7px solid #fd8869;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    height: 376px;
+    padding-bottom: 78px;
+    position: relative;
+    width: 100%;
+}
+ul, li {
+    list-style-type: none;
+}
+.horizontal-list li {
+    display: inline-block;
+    float: left;
+}
+.women-directory .profiles-list > li {
+    padding: 16px;
+    width: 16.66%;
+}
+/* @media all and (max-width:2300px) */
+.women-directory .profiles-list > li {
+    width: 20%;
+}
+.women-directory {
+    background-color: #eee;
+    padding: 30px;
+}
+.women-directory .profiles-list .profile .vertical-center {
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+.fill, .dir-share::before {
+    bottom: 0px;
+    display: block;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.women-directory .profiles-list .profile .footer {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    height: 78px;
+    padding: 24px 12px 0;
+    text-align: center;
+    top: auto;
+}
+.women-directory .profiles-list .profile .footer ul {
+    height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.women-directory .profiles-list .profile .footer ul li {
+    display: inline;
+    float: none;
+    line-height: 28px;
+}
+.women-directory .profiles-list .profile .footer .skills-tech-list li {
+    color: #4c4c4c;
+    font-size: 17px;
+}
+[ng-cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, :not(.ng-hide-animate).ng-hide {
+    display: none !important;
+}
+.women-directory .profiles-list .profile h3 {
+    -moz-transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    -ms-transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    -webkit-transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    color: #404040;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding: 0 12px;
+}
+.women-directory .profiles-list .profile:hover h3, .women-directory .profiles-list .profile:focus h3 {
+    color: #fd8869;
+}
+.women-directory .profiles-list .profile h4 {
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 12px;
+}
+.women-directory .profiles-list .profile .avatar {
+    border-radius: 50%;
+    height: 160px;
+    margin: 0 auto 15px;
+    width: 160px;
+}
+footer{
+    font-weight: bold;
+    z-index:2;
+}
+
+/* marker*/
+.directory-map-marker {
+	border-top: 7px solid #fd8869;
+	height: 165px;
+	position: relative;
+	width: 350px;
+}
+.gm-style-iw > div {
+	overflow: hidden !important;
+}
+.directory-map-container .gm-style-iw > div {
+	max-height: 350px !important;
+	max-width: 350px !important;
+}
+.gm-style .gm-style-iw {
+	font-weight: 300;
+	font-size: 13px;
+	overflow: hidden;
+}
+.directory-map-container .iw-wrapper, .directory-map-container .iw-background, .directory-map-container .gm-style-iw {
+	height: 165px !important;
+	width: 350px !important;
+}
+.directory-map-container .gm-style-iw {
+	background-color: #fff;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+	left: 25px !important;
+	top: 15px !important;
+}
+.gm-style {
+	font: 400 11px Roboto, Arial, sans-serif;
+	text-decoration: none;
+}
+#directory .directory-map-container .google-map {
+	background-color: #b2d0fe !important;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+#directory .directory-map-container .map-wrapper {
+	height: 430px;
+	position: relative;
+}
+.clearfix, section, .wtm-main-container, .wtm-main-article, .wtm-full-article, .wtm-card .links, footer .footer-holder, #events .events-list-container .wtm-events-list-container .wtm-events-list ul, .wtm-faqs-content .wtm-main-article ul {
+	*zoom:1 ;
+}
+#directory .directory-map-container {
+	transition: height 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	background-color: #eee;
+	height: 0px;
+	overflow: hidden;
+	position: relative;
+}
+#directory .directory-map-container.show-section {
+	height: 430px;
+}
+.wtm-main-container {
+	margin: 0 auto;
+	position: relative;
+}
+#content {
+	background: #272727;
+}
+#content {
+	margin-top: 678px;
+	position: relative;
+	z-index: 100;
+}
+.directory-map-marker .content-left, .directory-map-marker .content-right-top, .directory-map-marker .content-right-bottom {
+	position: absolute;
+	top: 0px;
+}
+.directory-map-marker .content-left {
+	border-right: 1px solid #eee;
+	height: 100%;
+	left: 0px;
+	width: 40%;
+}
+.directory-map-marker .content-right-top {
+	border-bottom: 1px solid #eee;
+	height: 62.5%;
+	right: 10px;
+	left: 40%;
+	padding: 12px 16px 0;
+}
+.directory-map-marker .content-right-bottom {
+	background-color: #f9f9f9;
+	height: 41%;
+	padding: 19px 16px 0;
+	right: 0px;
+	top: 62.5%;
+	width: 60%;
+}
+.directory-map-marker .content-right-bottom ul {
+	height: 22px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.horizontal-list li {
+	display: inline-block;
+}
+.directory-map-marker .content-right-bottom ul li {
+	display: inline;
+	float: none;
+	line-height: 22px;
+}
+.directory-map-marker .content-right-bottom .skills-tech-list li {
+	color: #4c4c4c;
+	font-size: 15px;
+}
+[ng-cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, :not(.ng-hide-animate).ng-hide {
+	display: none !important;
+}
+.directory-map-marker .content-right-top h3, .directory-map-marker .content-right-top h4 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.directory-map-marker .content-right-top h3 {
+	color: #404040;
+	font-size: 18px;
+	font-weight: 400;
+	height: 26px;
+	line-height: 26px;
+}
+.directory-map-marker .content-right-top h4 {
+	color: #a5a5a5;
+	font-size: 13px;
+	font-weight: 400;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+button {
+	overflow: visible;
+	border: none medium;
+}
+button, select {
+	text-transform: none;
+}
+button, html input[type='button'], input[type='reset'], input[type='submit'] {
+	cursor: pointer;
+}
+.directory-map-marker .content-right-top button {
+	transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	background-color: transparent;
+	color: #3f82eb;
+	font-weight: 400;
+}
+.directory-map-marker .content-left .shares {
+	text-align: center;
+}
+.directory-map-marker .content-left .shares li {
+	float: none;
+}
+a {
+	text-decoration: none;
+}
+.image-for-text {
+	direction: ltr;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+.dir-share {
+	-moz-transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	-ms-transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	-webkit-transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	background-color: #cacaca;
+	border-radius: 50%;
+	display: block;
+	height: 22px;
+	margin: 0 4px;
+	position: relative;
+	width: 22px;
+}
+.sprite, .directory-controls .toggle-map-btn .icon, .dir-share::before {
+	background-image: url("../images/sprite.png");
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	display: block;
+}
+.fill, .dir-share::before {
+	bottom: 0px;
+	display: block;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.directory-map-marker .content-left .shares li a {
+	margin: 0 1px;
+}
+.gm-style img {
+	max-width: none;
+}
+.directory-map-marker .content-left .avatar {
+	display: block;
+	height: 94px;
+	margin: 15px auto 13px;
+	width: 94px;
+}
