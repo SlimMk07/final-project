@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- link CSS-->
         <link rel="stylesheet" href="src/home.css"/> 
+    <!-- link CSS2-->
+        <link rel="stylesheet" href="src/connect.css"/> 
     <!--Title + logo -->
         <title>Workshop</title>
     <!--font family link-->
@@ -28,19 +30,40 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </button>
                         <button class="nav-item">
-                            <a class="nav-link" href="#">Directory</a>
-                        </button>   
+                            <a class="nav-link" href="directory.html">Directory</a>
+                        </button>
+                        <button class="nav-item">
+                                <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </button>     
                 </div>
                 <div class="connect">  
                         <button class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
-                        </button>
-                        <button class="nav-item">
-                             <a class="nav-link" href="#">Sign Up</a>
-                        </button>   
+                            <a id="connect" class="nav-link" href="#">Login / Sign Up</a>
+                        </button> 
                 </div>
             </div>
         </nav>
+        <div id="form-structor" class="form-structor">
+                <div class="signup">
+                    <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+                    <div class="form-holder">
+                        <input type="text" class="input" placeholder="Name" />
+                        <input type="email" class="input" placeholder="Email" />
+                        <input type="password" class="input" placeholder="Password" />
+                    </div>
+                    <button class="submit-btn">Sign up</button>
+                </div>
+                <div class="login slide-up">
+                    <div class="center">
+                        <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+                        <div class="form-holder">
+                            <input type="email" class="input" placeholder="Email" />
+                            <input type="password" class="input" placeholder="Password" />
+                        </div>
+                        <button class="submit-btn">Login</button>
+                    </div>
+                </div>
+            </div>  
     </header>
     <main>
         <section class="part1">
@@ -54,7 +77,7 @@
                 <div class="container">
                         <div class="card">
                           <img src="src/1.gif">
-                          <div class="card__head"><a href="#"> Find Speaker</a></div>
+                          <div class="card__head"><a href="directory.html#find-speakers"> Find Speaker</a></div>
                         </div>
                         <div class="card">
                           <img src="src/2.gif">
@@ -88,18 +111,34 @@
                     <p class="para2">Follow us: <a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-twitter-square"></i></a></p>
                 </div>  
             </div>
-            <div class="black2">
+            <div id="contact-us" class="black2">
                 <ul>
                     <li>Contact Us :</li>
                     <li>Email: <a href="#">Workshop@gmail.com</a></li>
-                    <li>Phone: <a href="#">+216 000 000</a></li>
+                    <li>Phone: <a href="#">+216 00 000 000</a></li>
                 </ul>
+                <form action="index.html" method="POST">
+                        <div class="forms">  
+                          <span>Name:</span><br>
+                              <input class="inputs" id='name' type="text" placeholder="Full name"/><br>
+                              <p id='msgname'></p>
+                          <span>E-mail Address:</span><br>
+                              <input class="inputs" id="email" type="email" placeholder="expl@domain.extention"/><br>
+                              <p id="msgmail"></p>
+                          <span>Message:</span><br>  
+                              <textarea class="comment" id="commentaire" name="my-comment"></textarea>
+                              <p id='msgcomm'></p>
+                          <button type="button" class="bots btn btn-outline-light" onclick="validation()">send</button><br>
+                        </div>  
+                </form>   
             </div><br>
         </section>
         <section class="black3">
                 <p>©2001–2019 All rights reserved. <a href="#">Privacy</a> and <a href="#"> Terms</a></p>
         </section>  
     </footer>  
+    <!--link js-->
+    <script src="src/home.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
