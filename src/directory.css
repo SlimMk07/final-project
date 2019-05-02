@@ -1,0 +1,125 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    height:200px;
+}
+.selectors{
+    background-color: #E0E0E0;
+}
+.checkbox{
+    display:flex;
+    align-items:baseline;
+    border-bottom: 1px solid #E0E0E0;
+}
+.choice{
+    margin-left:1em;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+/*card*/
+.women-directory .profiles-list .profile {
+    background-color: #fff;
+    border-top: 7px solid #fd8869;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    height: 376px;
+    padding-bottom: 78px;
+    position: relative;
+    width: 100%;
+}
+ul, li {
+    list-style-type: none;
+}
+.horizontal-list li {
+    display: inline-block;
+    float: left;
+}
+.women-directory .profiles-list > li {
+    padding: 16px;
+    width: 16.66%;
+}
+/* @media all and (max-width:2300px) */
+.women-directory .profiles-list > li {
+    width: 20%;
+}
+.women-directory {
+    background-color: #eee;
+    padding: 30px;
+}
+.women-directory .profiles-list .profile .vertical-center {
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+.fill, .dir-share::before {
+    bottom: 0px;
+    display: block;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.women-directory .profiles-list .profile .footer {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    height: 78px;
+    padding: 24px 12px 0;
+    text-align: center;
+    top: auto;
+}
+.women-directory .profiles-list .profile .footer ul {
+    height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.women-directory .profiles-list .profile .footer ul li {
+    display: inline;
+    float: none;
+    line-height: 28px;
+}
+.women-directory .profiles-list .profile .footer .skills-tech-list li {
+    color: #4c4c4c;
+    font-size: 17px;
+}
+[ng-cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, :not(.ng-hide-animate).ng-hide {
+    display: none !important;
+}
+.women-directory .profiles-list .profile h3 {
+    -moz-transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    -ms-transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    -webkit-transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    color: #404040;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding: 0 12px;
+}
+.women-directory .profiles-list .profile:hover h3, .women-directory .profiles-list .profile:focus h3 {
+    color: #fd8869;
+}
+.women-directory .profiles-list .profile h4 {
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 12px;
+}
+.women-directory .profiles-list .profile .avatar {
+    border-radius: 50%;
+    height: 160px;
+    margin: 0 auto 15px;
+    width: 160px;
+}
+footer{
+    font-weight: bold;
+    z-index:2;
+}
