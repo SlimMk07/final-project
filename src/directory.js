@@ -85,8 +85,6 @@ function myMap() {
     }
 }
 
-
-
 function filter(){
   let technologies = document.getElementsByName("technologies");
   console.log('technologies', technologies[0].checked);
@@ -96,6 +94,8 @@ function filter(){
 
   let gender = document.getElementsByName("gender");
   console.log('gender', gender[0].checked);
+
+
 }
 
 function load(){
@@ -128,10 +128,7 @@ signupBtn.addEventListener('click', (e) => {
 });
 
 const connect = document.getElementById("connect")
-connect.addEventListener('click',(e)=>{let login=document.getElementById("form-structor") 
-login.style.display=="block" ? login.style.display="none":login.style.display="block"
-})
+    connect.addEventListener('click',(e)=>{let login=document.getElementById("form-structor") 
+    login.style.display=="block" ? login.style.display="none":login.style.display="block"
+    })
 }
-
-
-
