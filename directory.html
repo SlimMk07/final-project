@@ -13,32 +13,32 @@
     <link rel="stylesheet" href="src/connect.css"/> 
         <title>directory</title>
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid" onload="load()">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">   
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="visit">
-                        <a class="navbar-brand" href="#"> <img src="src/find.png" alt="logo" width="40" height="40"><p>Workshop</p> </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="visit">
+                    <a class="navbar-brand" href="#"> <img src="src/find.png" alt="logo" width="40" height="40"><p>Workshop</p> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <button class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </button>
-                            <button class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </button>
-                            <button class="nav-item">
-                                <a class="nav-link" href="directory.html">Directory</a>
-                            </button>
-                            <button class="nav-item">
-                                    <a class="nav-link" href="#contact-us">Contact Us</a>
-                            </button>     
-                    </div>
-                    <div class="connect">  
-                            <button class="nav-item">
-                                <a id="connect" class="nav-link" href="#">Login / Sign Up</a>
-                            </button> 
-                    </div>
+                        <button class="nav-item">
+                            <a class="nav-link" href="directory.html">Directory</a>
+                        </button>
+                        <button class="nav-item">
+                                <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </button>     
                 </div>
-            </nav>
+                <div class="connect">  
+                    <button class="nav-item">
+                        <a id="connect" class="nav-link" href="#">Login / Sign Up</a>
+                    </button> 
+                </div>
+            </div>
+        </nav>
             <div id="form-structor" class="form-structor">
                 <div class="signup">
                     <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
@@ -235,7 +235,7 @@
             </div>
         </nav>
     </section>
-    <section id="find-speakers" class="women-directory ng-scope" style="min-height: 1043.66px; background-color: #343a40" >
+    <section id="find-speakers" class="women-directory ng-scope" style="min-height: 1043.66px;" >
         <ul class="profiles-list horizontal-list clearfix ng-scope">
             <li class="ng-scope" data-ng-repeat="profile in profiles.filteredProfiles track by $index">
                 <div tabindex="0" class="profile degree-" id="id-4657391668822016" role="button" aria-controls="wtm-directory-lightbox" aria-label="Open Nino Nanitashvili's profile" data-track-label="Nino Nanitashvili" data-track-action="Click: open lightbox" data-track-category="Directory - profile card" data-track="" data-ng-click="::profiles.showLightbox(profile.slug)" data-ng-keydown="::profiles.evaluateKeyPress($event, profile.slug)">
@@ -324,7 +324,7 @@
         </div>
     </section>
     <footer>
-        <section class="black">
+        <section class="black row">
             <div class="black1">
                 <img src="src/find.png" width="100"height="100">
                 <div class="lastpara">   

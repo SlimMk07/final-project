@@ -98,7 +98,7 @@ function filter(){
   console.log('gender', gender[0].checked);
 }
 
-
+function load(){
 /** login/signup */
 const loginBtn = document.getElementById('login');
 const signupBtn = document.getElementById('signup');
@@ -131,3 +131,7 @@ const connect = document.getElementById("connect")
 connect.addEventListener('click',(e)=>{let login=document.getElementById("form-structor") 
 login.style.display=="block" ? login.style.display="none":login.style.display="block"
 })
+}
+
+
+
