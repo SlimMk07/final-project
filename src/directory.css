@@ -6,6 +6,10 @@ li a{
     color: grey !important;
     font-size: 1.5rem !important; 
 }
+a{
+  text-decoration: none;
+  list-style-type: none;
+}
 li a:hover{
     color: #a2c11c !important;
 } 
@@ -31,8 +35,14 @@ li a:hover{
 }
 .scrollable-menu {
     height: auto;
-    max-height: 200px;
+    max-height: 250px;
     overflow-x: hidden;
+}
+
+.scrollable-popup{
+  height:auto;
+  max-height:200px;
+  overflow-x: hidden;
 }
 
 /*card*/

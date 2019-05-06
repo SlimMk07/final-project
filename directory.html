@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="src/directory.css">
@@ -15,51 +14,52 @@
     <title>directory</title>
   </head>
   <body class="container-fluid" onload="load()">
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"> <img src="src/find.png" alt="logo" width="40" height="40"><p>Workshop</p> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="directory.html#find-speakers">Directory</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact-us">Contact Us</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <button class="btn btn-outline-success my-2 my-sm-0" id="connect" type="submit">Login / Sign Up</button>
-                  </form>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="home.html"> <img src="src/find.png" alt="logo" width="40" height="40"><p>Workshop</p> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="directory.html#find-speakers">Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="connect" type="submit">Login / Sign Up</button>
+                </form>
+            </div>
+    </nav>
+    <div id="form-structor" class="form-structor">
+        <div class="signup">
+            <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+            <div class="form-holder">
+                <input type="text" class="input" placeholder="Name" />
+                <input type="email" class="input" placeholder="Email" />
+                <input type="password" class="input" placeholder="Password" />
+            </div>
+            <button class="submit-btn">Sign up</button>
+        </div>
+        <div class="login slide-up">
+            <div class="center">
+                <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+                <div class="form-holder">
+                    <input type="email" class="input" placeholder="Email" />
+                    <input type="password" class="input" placeholder="Password" />
                 </div>
-        </nav>
-            <div id="form-structor" class="form-structor">
-                <div class="signup">
-                    <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
-                    <div class="form-holder">
-                        <input type="text" class="input" placeholder="Name" />
-                        <input type="email" class="input" placeholder="Email" />
-                        <input type="password" class="input" placeholder="Password" />
-                    </div>
-                    <button class="submit-btn">Sign up</button>
-                </div>
-                <div class="login slide-up">
-                    <div class="center">
-                        <h2 class="form-title" id="login"><span>or</span>Log in</h2>
-                        <div class="form-holder">
-                            <input type="email" class="input" placeholder="Email" />
-                            <input type="password" class="input" placeholder="Password" />
-                        </div>
-                        <button class="submit-btn">Login</button>
-                    </div>
-                </div>
-            </div>  
-        <div id="googleMap" style="width:100%;height:400px;"></div>
+                <button class="submit-btn">Login</button>
+            </div>
+        </div>
+    </div>  
+    <div id="googleMap" style="width:100%;height:400px;"></div>
         
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPHXn5B2BfPeFQYkHhLiGvUhtODKpUrpo&callback=myMap"></script>
     <section class="container-fluid selectors">
@@ -74,162 +74,150 @@
                         Technologies
                         </a>
                         <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
-                            <!-- <div class="checkbox">
-                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="all" aria-label="Checkbox for following text input">
-                                <p class="choice">All</p>
-                            </div> -->
                             <div class="checkbox">
-                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="html5" aria-label="Checkbox for following text input">
+                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="html5">
                                 <p class="choice">HTML5</p>
                             </div>
                             <div class="checkbox">
-                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="css" aria-label="Checkbox for following text input">
+                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="css">
                                 <p class="choice">CSS</p>
                             </div>
                             <div class="checkbox">
-                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="javascript" aria-label="Checkbox for following text input">
+                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="javascript">
                                 <p class="choice">Javascript</p>
                             </div>
                             <div class="checkbox">
-                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="react" aria-label="Checkbox for following text input">
+                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="react">
                                 <p class="choice">React</p>
                             </div>
                             <div class="checkbox">
-                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="node.js" aria-label="Checkbox for following text input">
+                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="node.js">
                                 <p class="choice">Node.js</p>
                             </div>
                             <div class="checkbox">
-                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="mongodb" aria-label="Checkbox for following text input">
+                                <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="mongodb">
                                 <p class="choice">Mongodb</p>
                             </div>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Location
-                            </a>
-                            <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
-                                <!-- <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="all" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">All</p>
-                                </div> -->
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="ariana" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Ariana</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="béja" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Béja</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="ben-arous" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Ben Arous</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="bizerte" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Bizerte</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="gabès" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Gabès</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="gafsa" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Gafsa</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="jendouba" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Jendouba</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="kairouan" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Kairouan</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="kasserine" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Kasserine</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="kébili" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Kébili</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="le-kef" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Le Kef</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="mahdia" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Mahdia</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="la-manouba" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">La Manouba</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="médenine" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Médenine</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="monastir" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Monastir</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="nabeul" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Nabeul</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="sfax" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Sfax</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="sidi-bouzid" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Sidi Bouzid</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="siliana" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Siliana</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="sousse" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Sousse</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="tataouine" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Tataouine</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="tozeur" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Tozeur</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="tunis" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Tunis</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="location" value="zaghouan" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Zaghouan</p>
-                                </div>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Location
+                        </a>
+                        <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="ariana" onclick="filter()">
+                                <p class="choice">Ariana</p>
                             </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Gender
-                            </a>
-                            <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
-                                <!-- <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="gender" value="all" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">All</p>
-                                </div> -->
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="gender" value="male" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Male</p>
-                                </div>
-                                <div class="checkbox">
-                                    <input class="choice" type="checkbox" name="gender" value="female" onclick="filter()" aria-label="Checkbox for following text input">
-                                    <p class="choice">Female</p>
-                                </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="béja" onclick="filter()">
+                                <p class="choice">Béja</p>
                             </div>
-                        </li>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="ben-arous" onclick="filter()">
+                                <p class="choice">Ben Arous</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="bizerte" onclick="filter()">
+                                <p class="choice">Bizerte</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="gabès" onclick="filter()">
+                                <p class="choice">Gabès</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="gafsa" onclick="filter()">
+                                <p class="choice">Gafsa</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="jendouba" onclick="filter()">
+                                <p class="choice">Jendouba</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="kairouan" onclick="filter()">
+                                <p class="choice">Kairouan</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="kasserine" onclick="filter()">
+                                <p class="choice">Kasserine</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="kébili" onclick="filter()">
+                                <p class="choice">Kébili</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="le-kef" onclick="filter()">
+                                <p class="choice">Le Kef</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="mahdia" onclick="filter()">
+                                <p class="choice">Mahdia</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="la-manouba" onclick="filter()">
+                                <p class="choice">La Manouba</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="médenine" onclick="filter()">
+                                <p class="choice">Médenine</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="monastir" onclick="filter()">
+                                <p class="choice">Monastir</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="nabeul" onclick="filter()">
+                                <p class="choice">Nabeul</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="sfax" onclick="filter()">
+                                <p class="choice">Sfax</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="sidi-bouzid" onclick="filter()">
+                                <p class="choice">Sidi Bouzid</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="siliana" onclick="filter()">
+                                <p class="choice">Siliana</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="sousse" onclick="filter()">
+                                <p class="choice">Sousse</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="tataouine" onclick="filter()">
+                                <p class="choice">Tataouine</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="tozeur" onclick="filter()">
+                                <p class="choice">Tozeur</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="tunis" onclick="filter()">
+                                <p class="choice">Tunis</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="location" value="zaghouan" onclick="filter()">
+                                <p class="choice">Zaghouan</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gender
+                        </a>
+                        <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="gender" value="m" onclick="filter()">
+                                <p class="choice">Male</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="choice" type="checkbox" name="gender" value="f" onclick="filter()">
+                                <p class="choice">Female</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -273,11 +261,9 @@
         </section>  
     </footer>  
     
-    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
 
 </body>
