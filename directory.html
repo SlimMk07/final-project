@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <script src="src/directory.js"></script>
     <link rel="stylesheet" href="src/connect.css"/> 
-        <title>directory</title>
+    <script type="text/javascript" src="speakers.json"></script>
+    <title>directory</title>
   </head>
   <body class="container-fluid" onload="load()">
         <!-- navbar -->
@@ -75,10 +76,10 @@
                         Technologies
                         </a>
                         <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
-                            <div class="checkbox">
+                            <!-- <div class="checkbox">
                                 <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="all" aria-label="Checkbox for following text input">
                                 <p class="choice">All</p>
-                            </div>
+                            </div> -->
                             <div class="checkbox">
                                 <input class="choice" type="checkbox" name="technologies" onclick="filter()" value="html5" aria-label="Checkbox for following text input">
                                 <p class="choice">HTML5</p>
@@ -110,10 +111,10 @@
                             Location
                             </a>
                             <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
-                                <div class="checkbox">
+                                <!-- <div class="checkbox">
                                     <input class="choice" type="checkbox" name="location" value="all" onclick="filter()" aria-label="Checkbox for following text input">
                                     <p class="choice">All</p>
-                                </div>
+                                </div> -->
                                 <div class="checkbox">
                                     <input class="choice" type="checkbox" name="location" value="ariana" onclick="filter()" aria-label="Checkbox for following text input">
                                     <p class="choice">Ariana</p>
@@ -217,10 +218,10 @@
                             Gender
                             </a>
                             <div class="dropdown-menu scrollable-menu" aria-labelledby="navbarDropdown">
-                                <div class="checkbox">
+                                <!-- <div class="checkbox">
                                     <input class="choice" type="checkbox" name="gender" value="all" onclick="filter()" aria-label="Checkbox for following text input">
                                     <p class="choice">All</p>
-                                </div>
+                                </div> -->
                                 <div class="checkbox">
                                     <input class="choice" type="checkbox" name="gender" value="male" onclick="filter()" aria-label="Checkbox for following text input">
                                     <p class="choice">Male</p>
@@ -235,94 +236,12 @@
             </div>
         </nav>
     </section>
-    <section id="find-speakers" class="women-directory ng-scope" style="min-height: 1043.66px;" >
-        <ul class="profiles-list horizontal-list clearfix ng-scope">
-            <li class="ng-scope" data-ng-repeat="profile in profiles.filteredProfiles track by $index">
-                <div tabindex="0" class="profile degree-" id="id-4657391668822016" role="button" aria-controls="wtm-directory-lightbox" aria-label="Open Nino Nanitashvili's profile" data-track-label="Nino Nanitashvili" data-track-action="Click: open lightbox" data-track-category="Directory - profile card" data-track="" data-ng-click="::profiles.showLightbox(profile.slug)" data-ng-keydown="::profiles.evaluateKeyPress($event, profile.slug)">
-                    <span class="vertical-center">
-                        <div class="avatar-wrapper">
-                            <div class="avatar" style='background-image: url("https://www.womentechmakers.com/static/images/directory/avatars/nino-nanitashvili.png");' lazy-img="/static/images/directory/avatars/nino-nanitashvili.png"></div>
-                        </div>
-                        <h3 class="ng-binding" data-ng-bind="::profile.title || profile.name">Nino Nanitashvili</h3>
-                        <h4 class="ng-binding">GDG Tbilisi</h4>
-                    </span>
-                    <footer class="footer fill degree-">
-                        <ul class="skills-tech-list horizontal-list clearfix">
-                            <li class="ng-binding ng-scope" data-ng-repeat="skill in ::profile.skills">HTML5
-                                <span data-ng-hide="$last">,&nbsp;</span>
-                            </li>
-                            <li class="ng-binding ng-scope" data-ng-repeat="skill in ::profile.skills">CSS
-                                <span data-ng-hide="$last">,&nbsp;</span>
-                            </li>
-                            <li class="ng-binding ng-scope" data-ng-repeat="skill in ::profile.skills">Project Management
-                                <span class="ng-hide" data-ng-hide="$last">,&nbsp;</span>
-                            </li>
-                        </ul>
-                    </footer>
-                </div>
-            </li>
-            <li class="ng-scope" data-ng-repeat="profile in profiles.filteredProfiles track by $index">
-                <div tabindex="0" class="profile degree-" id="id-4657391668822016" role="button" aria-controls="wtm-directory-lightbox" aria-label="Open Nino Nanitashvili's profile" data-track-label="Nino Nanitashvili" data-track-action="Click: open lightbox" data-track-category="Directory - profile card" data-track="" data-ng-click="::profiles.showLightbox(profile.slug)" data-ng-keydown="::profiles.evaluateKeyPress($event, profile.slug)">
-                    <span class="vertical-center">
-                        <div class="avatar-wrapper">
-                            <div class="avatar" style='background-image: url("https://www.womentechmakers.com/static/images/directory/avatars/nino-nanitashvili.png");' lazy-img="/static/images/directory/avatars/nino-nanitashvili.png"></div>
-                        </div>
-                        <h3 class="ng-binding" data-ng-bind="::profile.title || profile.name">Nino Nanitashvili</h3>
-                        <h4 class="ng-binding">GDG Tbilisi</h4>
-                    </span>
-                    <footer class="footer fill degree-">
-                        <ul class="skills-tech-list horizontal-list clearfix">
-                            <li class="ng-binding ng-scope" data-ng-repeat="skill in ::profile.skills">HTML5
-                                <span data-ng-hide="$last">,&nbsp;</span>
-                            </li>
-                            <li class="ng-binding ng-scope" data-ng-repeat="skill in ::profile.skills">CSS
-                                <span data-ng-hide="$last">,&nbsp;</span>
-                            </li>
-                            <li class="ng-binding ng-scope" data-ng-repeat="skill in ::profile.skills">Project Management
-                                <span class="ng-hide" data-ng-hide="$last">,&nbsp;</span>
-                            </li>
-                        </ul>
-                    </footer>
-                </div>
-            </li>
-        </ul>
+    <section id="find-speakers" class="women-directory row" style="min-height: 1043.66px;" >
+       
+         
     </section>
 
-    <section class="directory-map-marker degree-">
-        <div class="content-left">
-            <div class="avatar-container">
-                <img class="avatar" alt="Alix Klingenberg" src="https://www.womentechmakers.com/static/images/directory/avatars/teodora-oficial.png">
-            </div>
-            <div class="ng-isolate-scope" track-category="Directory - infowindow" social="item.data">
-                <ul class="shares horizontal-list">
-                    <li class="ng-scope" data-ng-if="social.linkedin">
-                        <a class="dir-share dir-share-linkedin image-for-text ng-binding" href="https://www.linkedin.com/in/alixjklingenberg" target="_blank" rel="noopener" data-track-label="Alix Klingenberg" data-track-action="Click: share linkedIn" data-track-category="Directory - infowindow" data-ng-href="https://www.linkedin.com/in/alixjklingenberg">Share Alix Klingenberg's profile on linkedIn</a>
-                    </li>
-                    <li class="ng-scope" data-ng-if="social.twitter">
-                        <a class="dir-share dir-share-twitter image-for-text ng-binding" href="https://twitter.com/evolutionised" target="_blank" rel="noopener" data-track-label="Alix Klingenberg" data-track-action="Click: share Twitter" data-track-category="Directory - infowindow" data-track="" data-ng-href="https://twitter.com/evolutionised">Share Alix Klingenberg's profile on Twitter</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="content-right-top">
-            <h3 class="ng-binding" data-ng-bind="::item.data.title || item.data.name">Alix Klingenberg</h3>
-            <h4 class="ng-binding">GDG Auckland</h4>
-            <button aria-label="Open profile lightbox for Alix Klingenberg" type="button" data-track-label="Alix Klingenberg" data-track-action="Click: open lightbox" data-track-category="Directory - infowindow" data-track="" data-ng-click="::profiles.showLightbox(item.data.slug)" value="View profile">View profile</button>
-        </div>
-        <div class="content-right-bottom degree-">
-            <ul class="skills-tech-list horizontal-list">
-                <li class="ng-binding ng-scope" data-ng-repeat="tech in ::item.data.technologies">C#
-                    <span data-ng-hide="$last &amp;&amp; item.data.skills.length === 0">,&nbsp;</span>
-                </li>
-                <li class="ng-binding ng-scope" data-ng-repeat="tech in ::item.data.technologies">Android
-                    <span data-ng-hide="$last &amp;&amp; item.data.skills.length === 0">,&nbsp;</span>
-                </li>
-                <li class="ng-binding ng-scope" data-ng-repeat="skill in ::item.data.skills">Developer
-                    <span class="ng-hide" data-ng-hide="$last">,&nbsp;</span>
-                </li>
-            </ul>
-        </div>
-    </section>
+   
     <footer>
         <section class="black row">
             <div class="black1">

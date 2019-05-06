@@ -29,13 +29,14 @@ body{
     padding-bottom: 78px;
     position: relative;
     width: 100%;
+    padding-left: 2rem; 
+    padding-right: 2rem;
 }
 ul, li {
     list-style-type: none;
 }
 .horizontal-list li {
     display: inline-block;
-    float: left;
 }
 .women-directory .profiles-list > li {
     padding: 16px;
@@ -50,8 +51,6 @@ ul, li {
     padding: 30px;
 }
 .women-directory .profiles-list .profile .vertical-center {
-    float: left;
-    position: relative;
     text-align: center;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -83,7 +82,6 @@ ul, li {
 }
 .women-directory .profiles-list .profile .footer ul li {
     display: inline;
-    float: none;
     line-height: 28px;
 }
 .women-directory .profiles-list .profile .footer .skills-tech-list li {
