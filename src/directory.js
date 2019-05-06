@@ -9,7 +9,7 @@ let speakers = [
       },
       "company": "GEEKMOSIS",
       "email": "rocha.massey@geekmosis.biz",
-      "phone": "+1 (941) 580-3140",
+      "phone": "+216 (941) 580-3140",
       "address": "222 Rapelye Street, Sharon, Florida, 8973",
       "about": "Excepteur dolor aliqua culpa cupidatat anim cillum. Non deserunt est velit sunt et cillum ea. Culpa incididunt qui elit aliqua cillum aliqua velit sint.",
       "place": "ben-arous",
@@ -26,7 +26,7 @@ let speakers = [
       },
       "company": "NIPAZ",
       "email": "castillo.walker@nipaz.us",
-      "phone": "+1 (940) 566-3731",
+      "phone": "+216 (940) 566-3731",
       "address": "873 Verona Street, Camino, North Carolina, 3051",
       "about": "Anim mollit tempor reprehenderit minim eu cupidatat eu consequat fugiat pariatur voluptate. Ex officia incididunt do adipisicing fugiat exercitation dolore",
       "place": "Tunis",
@@ -43,7 +43,7 @@ let speakers = [
       },
       "company": "DIGIGENE",
       "email": "joyce.holland@digigene.org",
-      "phone": "+1 (801) 532-3967",
+      "phone": "+216 (801) 532-3967",
       "address": "834 Oriental Court, Basye, Michigan, 5392",
       "about": "Qui sint ullamco laborum minim. Quis exercitation adipisicing dolore amet cillum nulla esse. Laboris pariatur qui consectetur ipsum ea labore id laborum.",
       "place": "La-Manouba",
@@ -60,7 +60,7 @@ let speakers = [
       },
       "company": "VENOFLEX",
       "email": "mary.scott@venoflex.ca",
-      "phone": "+1 (970) 493-2540",
+      "phone": "+216 (970) 493-2540",
       "address": "461 Joralemon Street, Roeville, American Samoa, 3224",
       "about": "Enim pariatur id ut aliquip aliquip laboris ex laboris sit est fugiat. Laboris mollit Lorem sit occaecat magna adipisicing. Elit velit sunt culpa est nostrud.",
       "place": "Mahdia",
@@ -77,7 +77,7 @@ let speakers = [
       },
       "company": "BESTO",
       "email": "cline.cabrera@besto.info",
-      "phone": "+1 (889) 529-2523",
+      "phone": "+216 (889) 529-2523",
       "address": "172 Anchorage Place, Dellview, Rhode Island, 732",
       "about": "Tempor occaecat aliquip proident voluptate officia eiusmod dolor in irure voluptate excepteur voluptate ex quis. Cillum qui do do ad sint. Quis minim ad consequat.",
       "place": "Siliana",
@@ -94,7 +94,7 @@ let speakers = [
       },
       "company": "EURON",
       "email": "burns.camacho@euron.me",
-      "phone": "+1 (945) 560-2012",
+      "phone": "+216 (945) 560-2012",
       "address": "192 Fillmore Place, Chapin, New Mexico, 9484",
       "about": "Cillum qui aute irure in duis nisi occaecat deserunt voluptate labore dolor Lorem est duis. Sit sit officia deserunt exercitation labore ipsum anim in esse irure tempor minim. Esse nulla.",
       "place": "Gafsa",
@@ -111,7 +111,7 @@ let speakers = [
       },
       "company": "ENAUT",
       "email": "rosanna.burris@enaut.com",
-      "phone": "+1 (959) 419-3526",
+      "phone": "+216 (959) 419-3526",
       "address": "663 Nevins Street, Eagletown, Indiana, 469",
       "about": "Consequat id Lorem do laboris elit consectetur voluptate elit nisi nisi. Nostrud duis exercitation tempor excepteur sint minim nostrud id minim fugiat culpa fugiat enim ipsum. Reprehenderit.",
       "place": "La-Manouba",
@@ -128,7 +128,7 @@ let speakers = [
       },
       "company": "OCTOCORE",
       "email": "martinez.chan@octocore.net",
-      "phone": "+1 (969) 402-3828",
+      "phone": "+216 (969) 402-3828",
       "address": "392 Williamsburg Street, Ronco, Maryland, 9547",
       "about": "Cupidatat sit cupidatat deserunt esse aliquip cillum magna anim. Elit proident laboris dolor ea anim non commodo enim dolore laboris magna ullamco. Aute sit deserunt ipsum cupidatat mollit.",
       "place": "Tataouine",
@@ -145,7 +145,7 @@ let speakers = [
       },
       "company": "EMERGENT",
       "email": "wheeler.ramirez@emergent.co.uk",
-      "phone": "+1 (808) 426-2710",
+      "phone": "+216 (808) 426-2710",
       "address": "345 Bryant Street, Chilton, Massachusetts, 6834",
       "about": "Fugiat sint voluptate adipisicing aute voluptate exercitation. Irure adipisicing proident laborum excepteur anim laborum. Eu aliquip adipisicing qui ad cupidatat Lorem anim pariatur fugiat ullamco.",
       "place": "Kairouan",
@@ -162,7 +162,7 @@ let speakers = [
       },
       "company": "NSPIRE",
       "email": "gamble.alston@nspire.io",
-      "phone": "+1 (927) 504-2706",
+      "phone": "+216 (927) 504-2706",
       "address": "632 Cooke Court, Genoa, Marshall Islands, 1960",
       "about": "Reprehenderit quis laborum ipsum non aute ad labore culpa cupidatat in. Exercitation ex irure sit eiusmod est et labore culpa sint velit excepteur esse laboris. Cupidatat enim irure anim et duis.",
       "place": "Jendouba",
@@ -179,7 +179,7 @@ let speakers = [
       },
       "company": "ESSENSIA",
       "email": "maggie.booth@essensia.tv",
-      "phone": "+1 (926) 552-3287",
+      "phone": "+216 (926) 552-3287",
       "address": "859 Seigel Street, Ivanhoe, Colorado, 8005",
       "about": "Nostrud adipisicing nostrud quis ipsum aliqua. In magna incididunt ut aute non consectetur in. Ipsum incididunt duis amet ea nisi aute veniam mollit id. Ad dolore ipsum Lorem eu elit incididunt.",
       "place": "Sidi-Bouzid",
@@ -196,7 +196,7 @@ let speakers = [
       },
       "company": "CABLAM",
       "email": "lacey.drake@cablam.name",
-      "phone": "+1 (809) 451-2393",
+      "phone": "+216 (809) 451-2393",
       "address": "704 Euclid Avenue, Brogan, South Dakota, 8801",
       "about": "Laborum culpa ea incididunt nostrud excepteur dolore veniam esse cupidatat exercitation sit commodo nulla. Ad magna irure consectetur ex ipsum consequat minim mollit cillum quis ut aute. Ipsum.",
       "place": "Sousse",
@@ -213,7 +213,7 @@ let speakers = [
       },
       "company": "XYLAR",
       "email": "melissa.lee@xylar.biz",
-      "phone": "+1 (832) 448-2087",
+      "phone": "+216 (832) 448-2087",
       "address": "821 John Street, Corriganville, Montana, 6051",
       "about": "Magna dolore duis ad Lorem occaecat voluptate officia ea culpa qui id eiusmod magna. Exercitation est veniam sit amet anim magna magna adipisicing esse id eu elit exercitation. Irure qui et aliquip laborum.",
       "place": "Tozeur",
@@ -230,7 +230,7 @@ let speakers = [
       },
       "company": "ZEAM",
       "email": "valarie.gross@zeam.us",
-      "phone": "+1 (824) 589-3927",
+      "phone": "+216 (824) 589-3927",
       "address": "108 Duryea Place, Colton, Texas, 5596",
       "about": "Velit qui nostrud consequat elit ad nostrud consequat elit ea ea magna. Minim ea aliqua nostrud est ea ea exercitation eu consequat labore non velit. Laborum est deserunt voluptate incididunt commodo. Deserunt.",
       "place": "Mahdia",
@@ -247,7 +247,7 @@ let speakers = [
       },
       "company": "QNEKT",
       "email": "wall.ford@qnekt.org",
-      "phone": "+1 (824) 401-3320",
+      "phone": "+216 (824) 401-3320",
       "address": "215 Seton Place, Bentley, Maine, 4566",
       "about": "Fugiat officia id nostrud sint minim. Ullamco ipsum laboris laborum aute consequat ea. Ad occaecat officia est nulla incididunt sit dolore labore quis nulla magna anim veniam. Sit occaecat voluptate eiusmod.",
       "place": "Le-Kef",
@@ -264,7 +264,7 @@ let speakers = [
       },
       "company": "NEPTIDE",
       "email": "roberta.edwards@neptide.ca",
-      "phone": "+1 (828) 400-2487",
+      "phone": "+216 (828) 400-2487",
       "address": "962 Sullivan Place, Yukon, Pennsylvania, 4357",
       "about": "Ea voluptate nostrud aute eiusmod cupidatat id exercitation velit consectetur tempor do sit. Enim amet anim cupidatat magna ex nulla nulla duis sit aute cupidatat. Aute consequat aliqua anim sint velit cupidatat.",
       "place": "Siliana",
@@ -281,7 +281,7 @@ let speakers = [
       },
       "company": "NAVIR",
       "email": "davenport.harrington@navir.info",
-      "phone": "+1 (897) 580-2472",
+      "phone": "+216 (897) 580-2472",
       "address": "464 Seba Avenue, Wiscon, Vermont, 1466",
       "about": "Et incididunt in ex fugiat in tempor sunt ullamco labore commodo excepteur. Ex laborum tempor in magna non magna incididunt enim culpa eiusmod exercitation cillum sunt. Irure et culpa in enim aute nisi consectetur.",
       "place": "Sfax",
@@ -298,7 +298,7 @@ let speakers = [
       },
       "company": "ZEROLOGY",
       "email": "schultz.rivas@zerology.me",
-      "phone": "+1 (811) 490-2298",
+      "phone": "+216 (811) 490-2298",
       "address": "762 Willow Street, Orason, Tennessee, 1017",
       "about": "Veniam ex labore anim incididunt sunt cupidatat laboris culpa. Tempor consequat laborum veniam ullamco exercitation eu magna irure. Nulla culpa consectetur laborum magna. Pariatur id tempor laborum pariatur officia nisi.",
       "place": "Tozeur",
@@ -315,7 +315,7 @@ let speakers = [
       },
       "company": "TETRATREX",
       "email": "saunders.reed@tetratrex.com",
-      "phone": "+1 (959) 547-3177",
+      "phone": "+216 (959) 547-3177",
       "address": "854 Wythe Avenue, Norfolk, Utah, 8986",
       "about": "Proident sunt id ex aliquip ea id ullamco eiusmod adipisicing anim. Mollit ullamco qui reprehenderit mollit Lorem non consequat quis deserunt eu consectetur nisi eiusmod. Minim incididunt magna mollit qui id aute est dolor pariatur sit laboris voluptate consequat adipisicing.",
       "place": "Zaghouan",
@@ -332,7 +332,7 @@ let speakers = [
       },
       "company": "BRISTO",
       "email": "latisha.mccall@bristo.net",
-      "phone": "+1 (996) 450-2387",
+      "phone": "+216 (996) 450-2387",
       "address": "362 Nassau Street, Reinerton, Nevada, 1096",
       "about": "Adipisicing adipisicing consectetur ipsum et. Veniam fugiat deserunt pariatur proident do incididunt laboris in aute. Cillum magna esse sint veniam fugiat do eu pariatur esse eiusmod magna in. Fugiat incididunt aute consectetur elit ex voluptate consequat id laborum. Est irure amet laboris .",
       "place": "Tataouine",
@@ -349,7 +349,7 @@ let speakers = [
       },
       "company": "DYNO",
       "email": "vincent.robertson@dyno.co.uk",
-      "phone": "+1 (965) 600-2638",
+      "phone": "+216 (965) 600-2638",
       "address": "505 Dennett Place, Benson, Idaho, 9781",
       "about": "Eu nisi anim ex qui laborum quis voluptate id anim tempor fugiat. Est proident fugiat do labore excepteur ipsum ut commodo Lorem laboris mollit mollit. Tempor cupidatat proident eu minim aute adipisicing.",
       "place": "Sidi-Bouzid",
@@ -366,7 +366,7 @@ let speakers = [
       },
       "company": "ASSISTIX",
       "email": "ella.woods@assistix.io",
-      "phone": "+1 (977) 543-3485",
+      "phone": "+216 (977) 543-3485",
       "address": "140 Debevoise Street, Whitmer, Puerto Rico, 3829",
       "about": "Irure est est irure mollit pariatur proident mollit labore tempor et veniam est sint. Excepteur ex proident sit amet. Pariatur exercitation nulla tempor qui exercitation consequat non. Proident quis sit do labore Lorem aliqua aute proident do.",
       "place": "Mahdia",
@@ -383,7 +383,7 @@ let speakers = [
       },
       "company": "TALKALOT",
       "email": "britt.pierce@talkalot.tv",
-      "phone": "+1 (869) 560-2606",
+      "phone": "+216 (869) 560-2606",
       "address": "838 Vanderveer Place, Holcombe, Northern Mariana Islands, 1485",
       "about": "Incididunt do exercitation minim culpa deserunt anim consectetur deserunt magna eu nostrud officia. Ipsum cillum amet exercitation id et laboris pariatur qui esse eu pariatur. Ut incididunt consectetur nisi anim mollit aliquip elit ex irure labore ut officia.",
       "place": "La-Manouba",
@@ -400,7 +400,7 @@ let speakers = [
       },
       "company": "DECRATEX",
       "email": "twila.koch@decratex.name",
-      "phone": "+1 (898) 424-3431",
+      "phone": "+216 (898) 424-3431",
       "address": "170 Aurelia Court, Motley, Kentucky, 924",
       "about": "Elit mollit exercitation aliqua consectetur commodo adipisicing. Elit Lorem voluptate deserunt tempor voluptate tempor qui non veniam in sint nulla ad sint. Cillum dolor labore et in dolor amet quis esse in ex eu excepteur et.",
       "place": "Tunis",
@@ -417,7 +417,7 @@ let speakers = [
       },
       "company": "BLUEGRAIN",
       "email": "marcie.english@bluegrain.biz",
-      "phone": "+1 (974) 516-3767",
+      "phone": "+216 (974) 516-3767",
       "address": "543 Lancaster Avenue, Sunbury, New York, 6768",
       "about": "Cupidatat excepteur culpa voluptate sint magna magna do. Qui ea officia ipsum eu Lorem sunt excepteur exercitation ad ut quis Lorem commodo. Duis cillum ad labore ad officia irure ullamco.",
       "place": "Gabès",
@@ -455,7 +455,7 @@ let places = [
 
 function myMap() {
     var map = new google.maps.Map(document.getElementById("googleMap"), {
-        center:new google.maps.LatLng(36.8189700,10.1657900),
+        center:new google.maps.LatLng(34.434287, 9.531733),
         zoom:6,
       });
     var infowindow = new google.maps.InfoWindow();
@@ -469,9 +469,7 @@ function myMap() {
             arr.push(x)
         }
     }
-    console.log("arr", arr)
     places=places.filter((p)=>p.exists==true)
-    console.log("places", places)
 
     var markers = [];
       for (var i = 0; i < arr.length; i++) {
@@ -482,7 +480,6 @@ function myMap() {
           });
           let str="<div class='scrollable-popup'>"
           for (let f of arr[i]){
-              console.log(f)
             str+= 
             `<section class="directory-map-marker degree-">
                 <div class="content-left">
@@ -521,8 +518,6 @@ function myMap() {
 }
 
 function filter(){
-  console.log(speakers)
-
   let technologies = Array.from(document.getElementsByName("technologies"));
   let filterTech = technologies.filter((elt)=> elt.checked==true).map((elt)=> elt.value)
  
@@ -540,60 +535,35 @@ function filter(){
 
   let str=""
   for(let x of filteredSpreakers){
-    str+= `<div class="card">
-    <div class="additional">
-      <div class="user-card">
-        <div class="level center">
-          ${x.place}
+    str+= 
+    `<div class="card">
+        <div class="additional">
+        <div class="user-card">
+            <div class="level center">${x.place}</div>
+            <div class="points center">${x.background}</div>
+            <img width="110" height="110" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" 
+                class="center rounded-circle" src="${x.picture}"></img>
         </div>
-        <div class="points center">
-          ${x.background}
+        <div class="more-info">
+            <h1 style="font-size:2rem">${x.name.first+" "+x.name.last}</h1>
+            <div class="coords">
+                <span>Email</span>
+                <span>${x.email}</span>
+            </div>
+            <div class="coords">
+                <span>Phone Number</span>
+                <span>${x.phone}</span>
+            </div>
+            </div>
         </div>
-        <img width="110" height="110" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" 
-            class="center rounded-circle" src="${x.picture}">
-     
-        </img>
-      </div>
-      <div class="more-info">
-        <h1 style="font-size:2rem">${x.name.first+" "+x.name.last}</h1>
-        <div class="coords">
-          <span>Email</span>
-          <span>${x.email}</span>
+        <div class="general">
+            <h1 style="font-size:2rem">${x.name.first+" "+x.name.last}</h1>
+            <p style="font-size:0.75rem">${x.about}</p>
         </div>
-        <div class="coords">
-          <span>Phone Number</span>
-          <span>${x.phone}</span>
-        </div>
-        <div class="stats">
-          <div>
-            <i class="fa fa-trophy"></i>
-            <div class="value">2</div>
-          </div>
-          <div>
-            <i class="fa fa-gamepad"></i>
-            <div class="value">27</div>
-          </div>
-          <div>
-            <i class="fa fa-group"></i>
-            <div class="value">123</div>
-          </div>
-          <div>
-            <i class="fa fa-coffee"></i>
-            <div class="value infinity">∞</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="general">
-      <h1 style="font-size:2rem">${x.name.first+" "+x.name.last}</h1>
-      <p style="font-size:0.75rem">${x.about}</p>
-    </div>
-  </div>`
+    </div>`
   }
 
   let card = document.querySelector("#cartes").innerHTML=str;
-
-  console.log(filteredSpreakers)
 }
 
 function load(){
