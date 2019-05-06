@@ -553,7 +553,9 @@ html, body {
   font-size: 0.9em;
 }
 .cartes{
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
