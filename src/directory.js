@@ -529,13 +529,12 @@ function filter(){
   console.log('filterTech', filterTech)
   console.log('filterTech', filterLocation)
   console.log('filterTech', filterGender)
-   let filteredSpreakers=speakers.filter((elt)=> filterTech.includes(elt.background.toLocaleLowerCase()))
-                                //  .filter((elt)=> filterLocation.includes(elt.background.toLocaleLowerCase()))
-                                //  .filter((elt)=> filterGender.includes(elt.background.toLocaleLowerCase()))
+  let filteredSpreakers=[]
+  if(filterTech.length >0)      filteredSpreakers=speakers.filter((elt)=> filterTech.includes(elt.background.toLocaleLowerCase()))
+  if(filterLocation.length>0)   filteredSpreakers=filteredSpreakers.filter((elt)=> filterLocation.includes(elt.place.toLocaleLowerCase()))
+  if(filterGender>0)            filteredSpreakers=filteredSpreakers.filter((elt)=> filterGender.includes(elt.gender.toLocaleLowerCase()))
 
-    console.log(filteredSpreakers)
-
-
+  console.log(filteredSpreakers)
 }
 
 function load(){

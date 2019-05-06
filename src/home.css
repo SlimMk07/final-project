@@ -2,17 +2,13 @@ body{
     font-family:'Varela Round', sans-serif;
     background-color:#e0e0e0; 
 }
-.collapse button{
-    background-color: transparent;
-    border-radius: 10%;
-    border: 1px;
+li a{
+    color: grey !important;
+    font-size: 1.5rem !important; 
 }
-.collapse a{
-    color: white;
-}
-.collapse a:hover{
-    color: #a2c11c;
-}
+li a:hover{
+    color: #a2c11c !important;
+} 
 .navbar-brand p{
     font-size: 150%;
     color:#a2c11c;   
@@ -21,11 +17,6 @@ body{
 .navbar-brand{
     display: flex;
     justify-content: center
-
-}
-.visit{
-    width: 40%;
-    display: flex;
 }
 .part1{
     background-image: url(mic.jpg);
@@ -36,6 +27,19 @@ body{
     flex-direction: column;
     align-items: flex-end;
     padding-bottom: 3rem;
+}
+@media screen and (max-width: 420px){
+    .part1{
+    background-image: url(mic.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:  100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 3rem;
+    background-color: #fed420
+}
 }
 .name{
     color: #283739;
@@ -109,14 +113,88 @@ body{
     }
     .name{
         color: #283739;
-        padding-right:23%;
+        padding-right:29%;
         margin-top: 6%;
         margin-bottom: 1.5%;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
-
+@media screen and (max-width: 580px){
+    .info{
+        border: 2px solid #283739;
+        border-radius: 1rem;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 0.5rem;
+        position: relative;
+        bottom: 0rem;
+        left: 5rem;
+    }
+    .name{
+        color: #283739;
+        padding-right:29%;
+        margin-top: 6%;
+        margin-bottom: 1.5%;
+        font-weight: bold;
+        font-size: 0.8rem;
+        position: relative;
+        bottom: 0rem;
+        left: 5rem;
+        
+    }
+}
+@media screen and (max-width: 420px){
+    .info{
+        border: 2px solid #283739;
+        border-radius: 1rem;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 0.48rem;
+        position: relative;
+        bottom: 0rem;
+        left: 6rem;
+    }
+    .name{
+        color: #283739;
+        padding-right:29%;
+        margin-top: 6%;
+        margin-bottom: 1.5%;
+        font-weight: bold;
+        font-size: 0.78rem;
+        position: relative;
+        bottom: 0rem;
+        left: 6rem;
+        
+    }
+}
+@media screen and (max-width: 360px){
+    .info{
+        border: 2px solid #283739;
+        border-radius: 1rem;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 0.48rem;
+        position: relative;
+        bottom: 0rem;
+        left: 6rem;
+    }
+    .name{
+        color: #283739;
+        padding-right:29%;
+        margin-top: 6%;
+        margin-bottom: 1.5%;
+        font-weight: bold;
+        font-size: 0.78rem;
+        position: relative;
+        bottom: 0rem;
+        left: 6rem;
+        
+    }
+}
  .cards-simpson {
     display: flex;
     justify-content: center;
