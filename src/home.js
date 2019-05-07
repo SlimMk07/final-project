@@ -1,40 +1,42 @@
-console.clear();
+function load(){
+    const loginBtn = document.getElementById('login');
+    const signupBtn = document.getElementById('signup');
 
-const loginBtn = document.getElementById('login');
-const signupBtn = document.getElementById('signup');
+    loginBtn.addEventListener('click', (e) => {
+        let parent = e.target.parentNode.parentNode;
+        Array.from(e.target.parentNode.parentNode.classList).find((element) => {
+            if(element !== "slide-up") {
+                parent.classList.add('slide-up')
+            }else{
+                signupBtn.parentNode.classList.add('slide-up')
+                parent.classList.remove('slide-up')
+            }
+        });
+    });
 
-loginBtn.addEventListener('click', (e) => {
-	let parent = e.target.parentNode.parentNode;
-	Array.from(e.target.parentNode.parentNode.classList).find((element) => {
-		if(element !== "slide-up") {
-			parent.classList.add('slide-up')
-		}else{
-			signupBtn.parentNode.classList.add('slide-up')
-			parent.classList.remove('slide-up')
-		}
-	});
-});
+    signupBtn.addEventListener('click', (e) => {
+        let parent = e.target.parentNode;
+        Array.from(e.target.parentNode.classList).find((element) => {
+            if(element !== "slide-up") {
+                parent.classList.add('slide-up')
+            }else{
+                loginBtn.parentNode.parentNode.classList.add('slide-up')
+                parent.classList.remove('slide-up')
+            }
+        });
+    });
+    
+    const connect = document.getElementById("connect")
+        
+        connect.addEventListener('click',(e)=>{let login=document.getElementById("form-structor") 
+        console.log("display1", login.style.display)
+        login.style.display=="none" ? login.style.display="block":login.style.display="none"
+        console.log("display2", login.style.display)
+    })
 
-signupBtn.addEventListener('click', (e) => {
-	let parent = e.target.parentNode;
-	Array.from(e.target.parentNode.classList).find((element) => {
-		if(element !== "slide-up") {
-			parent.classList.add('slide-up')
-		}else{
-			loginBtn.parentNode.parentNode.classList.add('slide-up')
-			parent.classList.remove('slide-up')
-		}
-	});
-});
-
-const connect = document.getElementById("connect")
-connect.addEventListener('click',(e)=>{let login=document.getElementById("form-structor") 
-login.style.display=="block" ? login.style.display="none":login.style.display="block"
-})
+}
 
 validation=()=>{
-
-
     let name=document.getElementById('name').value
     let comm=document.getElementById('commentaire').value
     let email1=document.getElementById('email').value

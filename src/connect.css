@@ -6,7 +6,6 @@
   border-radius: 15px;
   height: 550px;
   width: 350px;
-  position: relative;
   overflow: hidden;
   position: fixed; 
   display: flex;
@@ -34,7 +33,7 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   width: 65%;
-  z-index: 5;
+  z-index: 110;
   -webkit-transition: all .3s ease;
 }
 .form-structor .signup.slide-up {
@@ -121,7 +120,7 @@
   right: 0;
   bottom: 0;
   background-color: #fff;
-  z-index: 5;
+  z-index: 110;
   -webkit-transition: all .3s ease;
 }
 .form-structor .login::before {
@@ -134,7 +133,7 @@
   width: 200%;
   height: 250px;
   border-radius: 50%;
-  z-index: 4;
+  z-index: 110;
   -webkit-transition: all .3s ease;
 }
 .form-structor .login .center {
@@ -143,7 +142,7 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   width: 65%;
-  z-index: 5;
+  z-index: 110;
   -webkit-transition: all .3s ease;
 }
 .form-structor .login .center .form-title {

@@ -545,20 +545,20 @@ function filter(){
                 class="center rounded-circle" src="${x.picture}"></img>
         </div>
         <div class="more-info">
-            <h1 style="font-size:2rem">${x.name.first+" "+x.name.last}</h1>
-            <div class="coords">
+            <h1>${x.name.first+" "+x.name.last}</h1>
+            <div style="font-size:0.8rem" class="coords">
                 <span>Email</span>
                 <span>${x.email}</span>
             </div>
-            <div class="coords">
+            <div style="font-size:0.8rem" class="coords">
                 <span>Phone Number</span>
                 <span>${x.phone}</span>
             </div>
             </div>
         </div>
         <div class="general">
-            <h1 style="font-size:2rem">${x.name.first+" "+x.name.last}</h1>
-            <p style="font-size:0.75rem">${x.about}</p>
+            <h1>${x.name.first+" "+x.name.last}</h1>
+            <p style="font-size:0.8rem">${x.about}</p>
         </div>
     </div>`
   }
