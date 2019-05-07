@@ -11,7 +11,7 @@
   display: flex;
   justify-content: flex-end;
   top: 87px;
-  right:10px;
+  right:0px;
   display: none;
 }
 .form-structor::after {
@@ -25,7 +25,7 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 500px;
-  background-image: linear-gradient(to right bottom, #000000, #383637, #6d6b6e, #a7a6ab, #e2e5ed);
+  background-image: linear-gradient(to right top, #a2c11c, #66b64a, #2ba768, #00947b, #00807f);
 }
 .form-structor .signup {
   position: absolute;
