@@ -22,9 +22,6 @@ li a:hover{
     display: flex;
     justify-content: center
 }
-.selectors{
-    background-color: #E0E0E0;
-}
 .checkbox{
     display:flex;
     align-items:baseline;
@@ -355,7 +352,6 @@ a {
 	margin: 15px auto 13px;
 	width: 94px;
 }
-
 
 /*navbar*/
 .collapse{
